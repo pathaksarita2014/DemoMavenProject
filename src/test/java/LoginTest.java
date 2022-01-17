@@ -12,8 +12,7 @@ public class LoginTest
     {
         //webdriver.chrome.driver
 
-        System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") +
-                "//src//test//resources//bina//" + "chromedriver");
+        System.setProperty("webdriver.chrome.driver","src/test/resources/allbinaries/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.youtube.com/");
         Assert.assertTrue(true);

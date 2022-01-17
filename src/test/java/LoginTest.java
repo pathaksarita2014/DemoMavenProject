@@ -1,5 +1,6 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,9 +12,10 @@ public class LoginTest
     public void login()
     {
         //webdriver.chrome.driver
-
+        ChromeOptions option = new ChromeOptions();
+        option.addArguments("headless");
         System.setProperty("webdriver.chrome.driver","src/test/resources/allbinaries/chromedriver");
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver(option);
         driver.get("https://www.youtube.com/");
         Assert.assertTrue(true);
     }

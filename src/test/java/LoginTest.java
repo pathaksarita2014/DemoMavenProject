@@ -17,7 +17,7 @@ public class LoginTest
         ChromeOptions option = new ChromeOptions();
         option.setHeadless(true);
         option.addArguments("--no-sandbox");
-        option.addArguments("--remote-debugging-port=1720");
+        option.addArguments("--disable-dev-shm-usage");
         option.setBinary(System.getProperty("user.dir") + "//src//test//resources//testexe//chrome.exe");
         System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "//src//test//resources//linux//"
                 +"chromedriver");

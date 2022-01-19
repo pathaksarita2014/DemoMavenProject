@@ -15,8 +15,7 @@ public class LoginTest
         //webdriver.chrome.driver
 
         ChromeOptions option = new ChromeOptions();
-
-        option.addArguments("headless");
+        option.setHeadless(true);
         option.setBinary(System.getProperty("user.dir") + "//src//test//resources//testexe//chrome.exe");
         System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "//src//test//resources//linux//"
                 +"chromedriver");

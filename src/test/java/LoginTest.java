@@ -16,10 +16,11 @@ public class LoginTest
                 +"chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
-        options.addArguments("headless");
         options.addArguments("disable-infobars"); // disabling infobars
         options.addArguments("--disable-extensions"); // disabling extensions
         options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+        options.setHeadless(true);
+        options.addArguments("--remote-debugging-port=3647");
         options.setBinary(System.getProperty("user.dir") + "//src//test//resources//testexe//chrome.exe");
 
         WebDriver driver = new ChromeDriver(options);

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e34a2f-4f38-4289-b90b-16673aafafad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testexe/chrome.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <recent name="C:\Sample\DemoMavenProject\src\test\resources\testexe" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Sample/DemoMavenProject/src/test/resources/runner/testng.xml">
     <configuration name="C:/QAAutomation/Sample/DemoMavenProject/src/test/resources/runner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoMevenProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
@@ -52,8 +52,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Sample/DemoMavenProject/src/test/resources/runner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoMavenProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Sample/DemoMavenProject/src/test/resources/runner/testng.xml" />
         <item itemvalue="TestNG.C:/QAAutomation/Sample/DemoMavenProject/src/test/resources/runner/testng.xml" />
       </list>
     </recent_temporary>

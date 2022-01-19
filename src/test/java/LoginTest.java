@@ -15,7 +15,7 @@ public class LoginTest
         ChromeOptions option = new ChromeOptions();
         option.addArguments("headless");
        // System.setProperty("webdriver.chrome.driver","src/test/resources/newbinary/chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver","src/test/resources/binary97/chromedriver");
+        System.setProperty("webdriver.chrome.driver","src/test/resources/linux/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.youtube.com/");
         Assert.assertTrue(true);

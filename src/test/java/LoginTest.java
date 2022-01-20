@@ -13,7 +13,7 @@ public class LoginTest
     public void login()
     {
         System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "//src//test//resources//newbinary//"
-                +"chromedriver.exe");
+                +"chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
         options.addArguments("disable-infobars"); // disabling infobars
